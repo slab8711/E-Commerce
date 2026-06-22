@@ -433,6 +433,14 @@ select {
     font-size: 60px;
     color: #4169E1;
 }
+
+.books__loading--spinner {
+    display: none !important;
+}
+
+.books__loading .books__loading--spinner {
+    display: block !important;
+}
   
 .fa-spinner {
     animation: rotate 600ms infinite linear;
